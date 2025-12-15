@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|solutionrelative:MyDataStructuresForCpp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\linkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|solutionrelative:MyDataStructuresForCpp\\linkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\linkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|solutionrelative:MyDataStructuresForCpp\\linkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89C9C38F-BBE8-4BD0-83CE-AB2242C4D081}|MyDataStructuresForCpp\\MyDataStructuresForCpp.vcxproj|solutionrelative:MyDataStructuresForCpp\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +27,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\main.cpp",
+              "RelativeDocumentMoniker": "MyDataStructuresForCpp\\main.cpp",
+              "ToolTip": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\main.cpp",
+              "RelativeToolTip": "MyDataStructuresForCpp\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T12:53:37.96Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "linkedList.h",
               "DocumentMoniker": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\linkedList.h",
               "RelativeDocumentMoniker": "MyDataStructuresForCpp\\linkedList.h",
               "ToolTip": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\linkedList.h",
               "RelativeToolTip": "MyDataStructuresForCpp\\linkedList.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-15T13:02:33.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "linkedList.cpp",
               "DocumentMoniker": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\linkedList.cpp",
               "RelativeDocumentMoniker": "MyDataStructuresForCpp\\linkedList.cpp",
@@ -48,19 +62,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-15T12:54:31.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\main.cpp",
-              "RelativeDocumentMoniker": "MyDataStructuresForCpp\\main.cpp",
-              "ToolTip": "C:\\Users\\slhem\\source\\repos\\MyDataStructuresForCpp\\MyDataStructuresForCpp\\main.cpp",
-              "RelativeToolTip": "MyDataStructuresForCpp\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-15T12:53:37.96Z",
               "EditorCaption": ""
             }
           ]
