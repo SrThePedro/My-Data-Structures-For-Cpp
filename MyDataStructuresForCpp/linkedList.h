@@ -22,39 +22,18 @@ private:
 	int count = 0;
 
 public:
-	LinkedList(int _value) {
-		Node* node = new Node(_value);
-		head = node;
-		tail = node;
-		count = 1;
-	}
+	LinkedList(int _value);
 
-	void printHead() {
-		cout << endl << "Head of list: " << head->value;
-	}
+	void printHead();
 
-	void printTail() {
-		cout << endl << "Tail of list: " << tail->value;
-	}
+	void printTail();
 
-	void printCount() {
-		cout << endl << "Count: " << count;
-	}
+	void printCount();
 
-	void append(int value) {
-		Node* newnode = new Node(value);
-		tail->next = newnode;
-		tail = newnode;
-		count++;
-	}
+	void append(int value);
 
-	void printList() {
-		Node* temp = head;
-		while (temp != NULL){
-			cout << temp->value << " ";
-			temp = temp->next;
-		}
-	}
+	void printList();
+	
 };
 
 
