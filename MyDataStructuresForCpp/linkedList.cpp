@@ -63,4 +63,36 @@ void LinkedList::addFirstNode(int value) {
 	count++;
 }
 
+void LinkedList::deleteFirst() {
+	if (LinkedList::count == 1) {
+		delete head;
+		LinkedList::head = NULL;
+		LinkedList::tail = NULL;
+	}
+	else {
+		Node* temp = LinkedList::head;
+		LinkedList::head = LinkedList::head->next;
+		delete temp;
+		count--;
+		cout << endl << "Deletion successful";
+	}
+}
+
+Node* LinkedList::getNode(int index) {
+	if (index == 0) {
+		return LinkedList::head;
+	}
+	else if (index == LinkedList::count - 1) {
+		return LinkedList::tail;
+	}
+	else if (index > 0) {
+		Node* temp = LinkedList::head;
+		while (index != 0) {
+			temp = temp->next;
+			index--;
+		}
+		return temp;
+	}
+}
+
 

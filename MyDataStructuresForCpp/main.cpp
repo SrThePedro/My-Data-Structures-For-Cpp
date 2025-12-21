@@ -28,6 +28,18 @@ int main() {
 	list1.printList();
 	list1.printCount();
 
+	list1.deleteFirst();
+	cout << endl << endl;
+	list1.printList();
+	list1.printCount();
+
+	cout << endl << list1.getNode(2)->getValue();
+	cout << endl << list1.getNode(0)->getValue();
+	
+
+
+
+
 
 
 

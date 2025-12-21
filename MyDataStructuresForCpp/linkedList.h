@@ -12,6 +12,14 @@ public:
 		value = _value;
 		next = NULL;
 	}
+	int getValue() const{
+		return value;
+	}
+
+	Node* getNext() const {
+		return next;
+	}
+
 	friend class LinkedList;
 };
 
@@ -37,6 +45,10 @@ public:
 	void deleteLastNode();
 
 	void addFirstNode(int value);
+
+	void deleteFirst();
+
+	Node* getNode(int index);
 	
 };
 

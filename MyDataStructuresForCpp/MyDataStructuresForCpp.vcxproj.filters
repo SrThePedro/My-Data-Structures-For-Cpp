@@ -18,12 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Kaynak Dosyalar</Filter>
     </ClCompile>
-    <ClCompile Include="linkedList.cpp">
+    <ClCompile Include="LinkedList.cpp">
       <Filter>Kaynak Dosyalar</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="linkedList.h">
+    <ClInclude Include="LinkedList.h">
       <Filter>Kaynak Dosyalar</Filter>
     </ClInclude>
   </ItemGroup>
