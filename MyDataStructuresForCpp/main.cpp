@@ -18,6 +18,17 @@ int main() {
 	cout << endl << endl;
 	list1.printList();
 
+	list1.deleteLastNode();
+	cout << endl << endl;
+	list1.printList();
+	list1.printCount();
+
+	list1.addFirstNode(-1);
+	cout << endl << endl;
+	list1.printList();
+	list1.printCount();
+
+
 
 
 

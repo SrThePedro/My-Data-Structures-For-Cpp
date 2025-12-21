@@ -36,5 +36,31 @@ void LinkedList::printList() {
 	}
 }
 
+void LinkedList::deleteLastNode() {
+	if (LinkedList::count == 0) {
+		cout << endl << "There is no value for delete.";
+	}
+	else if (LinkedList::count == 1) {
+		LinkedList::head = NULL;
+		LinkedList::tail = NULL;
+	}
+	else {
+		Node* temp = head;
+		while (temp->next != LinkedList::tail) {
+			temp = temp->next;
+		}
+		delete LinkedList::tail;
+		LinkedList::tail = temp;
+		LinkedList::tail->next = NULL;
+		LinkedList::count--;
+	}
+}
+
+void LinkedList::addFirstNode(int value) {
+	Node* newnode = new Node(value);
+	newnode->next = head;
+	head = newnode;
+	count++;
+}
 
 

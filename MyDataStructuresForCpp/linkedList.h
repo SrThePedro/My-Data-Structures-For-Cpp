@@ -33,6 +33,10 @@ public:
 	void append(int value);
 
 	void printList();
+
+	void deleteLastNode();
+
+	void addFirstNode(int value);
 	
 };
 
